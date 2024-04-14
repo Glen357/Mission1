@@ -1,0 +1,93 @@
+input {
+    width: 40%;
+
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    /* header or nav bar */
+}
+
+input [type=text],
+input[type=email] {
+
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid forestgreen;
+}
+
+input [type=radio] {
+    margin: 20px;
+    height: 250px;
+    width: 20px;
+}
+
+input[type=radio]+label {
+
+    color: forestgreen;
+
+}
+
+textarea {
+    border: 2px solid forestgreen;
+}
+
+input[type=submit] {
+    background: forestgreen;
+    color: black;
+    width: 30%;
+
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    animation-name: color-changer;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+div:hover {
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* animations code */
+@keyframes color-changer {
+    0% {
+        background-color: black;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: forestgreen;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: white;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: whitesmoke;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: black;
+        left: 0px;
+        top: 0px;
+    }
+}

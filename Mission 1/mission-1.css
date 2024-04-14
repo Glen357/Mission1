@@ -1,0 +1,68 @@
+html {
+  font-family: 'Times New Roman', Times, serif margin: 0;
+  padding: 2px;
+}
+
+body {
+  background-image: url("Mission-1-Motorcycles/Pirate-Line-up.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+
+}
+
+*:hover {
+  background-color: ;
+  color: darkorange;
+  position: left;
+}
+
+
+#outer-container {}
+
+
+
+h1 {
+  background-color: black;
+  opacity: 80%;
+  text-align: center;
+  border-style: outset;
+  border-color: black;
+  text-shadow: 150px;
+  font-size: 100px;
+  color: forestgreen;
+
+}
+
+
+
+p {
+  border-style: outset;
+  border-color: forestgreen;
+  background-color: black;
+  opacity: 80%;
+  margin-left: 0;
+  margin-right: 78%;
+  font-size: 30px;
+  color: forestgreen;
+}
+
+
+img {
+  display: list-item;
+  margin-left: 20px;
+  width: 20%;
+  /* height: auto; */
+}
+
+  /* {
+  border-style: outset;
+  border-color: forestgreen;
+  background-color: black;
+  opacity: 80%;
+  margin-left: 0;
+  margin-right: 78%;
+  font-size: 30px;
+  color: forestgreen;
+} */

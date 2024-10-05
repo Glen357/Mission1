@@ -22,7 +22,7 @@ To view the website on your local machine:
 
 Clone the repository to your local machine.
 
-git clone <repository-url>
+git clone https://github.com/Glen357/Mission1.git
 Open the index.html file in your browser to explore the site.
 
 Technologies Used
